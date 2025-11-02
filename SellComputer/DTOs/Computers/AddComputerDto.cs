@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SellComputer.Models.DTOs.Computers
 {
@@ -16,8 +17,10 @@ namespace SellComputer.Models.DTOs.Computers
 
         [Range(0, int.MaxValue, ErrorMessage = "Số lượng không được âm")]
         public int Quantity { get; set; }
-
+        public string? Description { get; set; }
+    
         public Guid? CategoriesId { get; set; }
+        public IFormFile Images { get; set; }
 
     }
 }

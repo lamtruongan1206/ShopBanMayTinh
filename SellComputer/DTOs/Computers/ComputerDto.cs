@@ -15,5 +15,6 @@
         public DateTime? CreateAt { get; set; }
 
         public Guid? CategoriesId { get; set; }
+        public string? Description { get; set; }
     }
 }

@@ -10,10 +10,10 @@ public partial class Category
 
     public string? Name { get; set; }
 
-    public string? Decription { get; set; }
+    public string? Description { get; set; }
 
     public DateOnly? CreateAt { get; set; }
-
     [JsonIgnore]
+
     public virtual ICollection<Computer> Computers { get; set; } = new List<Computer>();
 }

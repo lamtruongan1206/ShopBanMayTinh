@@ -10,7 +10,7 @@ public partial class Image
 
     public string? Url { get; set; }
 
-    public bool? IsMain { get; set; }
+    public bool IsMain { get; set; }
 
     public int? OrderNumber { get; set; }
 

@@ -16,5 +16,7 @@ namespace SellComputer.Models.DTOs.Computers
         public int? Quantity { get; set; }
 
         public Guid? CategoriesId { get; set; }
+        public string? Description { get; set; }
+        public IFormFile? Images { get; set; } // Giống với AddComputerDto
     }
 }

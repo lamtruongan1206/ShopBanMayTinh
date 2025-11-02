@@ -22,7 +22,7 @@ public class AuthController : BaseApiController
     [HttpPost("login")]
     public IActionResult Login(LoginDto loginDto)
     {
-        var user = dbContext.Users.FirstOrDefault(u => u.Username == loginDto.Username && u.Password == loginDto.Password);
+        var user = dbContext.Users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
         if (user != null)
         {
             var role = dbContext.Roles.FirstOrDefault(r => r.Id == user.RoleId)?.Name;
@@ -36,6 +36,10 @@ public class AuthController : BaseApiController
     [HttpPost("register")]
     public IActionResult SignUp([FromBody] AddUserDto userDto)
     {
+        if(dbContext.Users.Any(u => u.Email == userDto.Email))
+        {
+            return BadRequest("Email đã được sử dụng !");
+        }
         var role = dbContext.Roles.FirstOrDefault(r => r.Name == "USER");
         var RoleId = role?.Id;
         try

@@ -5,7 +5,7 @@ namespace SellComputer.Models.Entities;
 
 public partial class Computer
 {
-    public Guid id { get; set; } 
+    public Guid Id { get; set; }
 
     public string? Name { get; set; }
 
@@ -15,11 +15,13 @@ public partial class Computer
 
     public int? Quantity { get; set; }
 
-    public DateTime? UpdateAt { get; set; }
+    public DateOnly? UpdateAt { get; set; }
 
-    public DateTime? CreateAt { get; set; } = DateTime.Now;
+    public DateOnly? CreateAt { get; set; }
 
     public Guid? CategoriesId { get; set; }
+
+    public string? Description { get; set; }
 
     public virtual ICollection<BillDetail> BillDetails { get; set; } = new List<BillDetail>();
 

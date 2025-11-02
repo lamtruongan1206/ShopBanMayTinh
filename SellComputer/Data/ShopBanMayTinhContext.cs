@@ -89,7 +89,7 @@ public partial class ShopBanMayTinhContext : DbContext
 
         modelBuilder.Entity<Computer>(entity =>
         {
-            entity.Property(e => e.id)
+            entity.Property(e => e.Id)
                 .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.CategoriesId).HasColumnName("CategoriesID");

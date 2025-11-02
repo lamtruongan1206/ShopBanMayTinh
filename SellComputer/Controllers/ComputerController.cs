@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SellComputer.Data;
 using SellComputer.Models.DTOs.Computers;
 using SellComputer.Models.Entities;
+using Microsoft.AspNetCore.Http;
 namespace SellComputer.Controllers
 {
     public class ComputerController : BaseApiController
@@ -62,12 +63,15 @@ namespace SellComputer.Controllers
 
 
         [HttpPatch("{id:guid}")]
-        public IActionResult UpdateComputers(Guid id, [FromBody] UpdateComputerDto updateComputerDto)
+        public IActionResult UpdateComputers(Guid id, [FromForm] UpdateComputerDto updateComputerDto)
         {
-            var computer = dbContext.Computers.Find(id);
+            var computer = dbContext.Computers
+        .Include(c => c.Images) // Quan trọng: include images để load ảnh hiện tại
+        .FirstOrDefault(c => c.Id == id);
+
             if (computer is null)
             {
-                return NotFound();
+                return NotFound(new { Error = "Máy tính không tồn tại" });
             }
 
             // Validate CategoriesId tồn tại (nếu có giá trị)
@@ -94,14 +98,69 @@ namespace SellComputer.Controllers
             if (updateComputerDto.Quantity.HasValue)
                 computer.Quantity = updateComputerDto.Quantity.Value;
 
+
+            if (updateComputerDto.Images != null && updateComputerDto.Images.Length > 0)
+            {
+                // Validate ảnh
+                if (updateComputerDto.Images.Length > 5 * 1024 * 1024) // 5MB
+                {
+                    return BadRequest(new { Error = "Ảnh không được vượt quá 5MB" });
+                }
+
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                var extension = Path.GetExtension(updateComputerDto.Images.FileName).ToLower();
+                if (!allowedExtensions.Contains(extension))
+                {
+                    return BadRequest(new { Error = "Chỉ chấp nhận file ảnh JPG, PNG, GIF" });
+                }
+
+                // Tìm ảnh cũ (ảnh chính) để xóa
+                var oldMainImage = computer.Images.FirstOrDefault(img => img.IsMain);
+                if (oldMainImage != null)
+                {
+                    // Xóa file vật lý cũ
+                    var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", oldMainImage.Url.TrimStart('/'));
+                    //if (File.Exists(oldImagePath))
+                    //{
+                    //    File.Delete(oldImagePath);
+                    //}
+                    // Xóa record cũ trong database
+                    dbContext.Images.Remove(oldMainImage);
+                }
+
+                // Upload ảnh mới
+                var imageName = Guid.NewGuid() + Path.GetExtension(updateComputerDto.Images.FileName);
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageName);
+                var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
+
+                using (var fileStream = new FileStream(imagePath, FileMode.Create))
+                {
+                    updateComputerDto.Images.CopyTo(fileStream);
+                }
+
+                // Tạo image entity mới
+                var imageEntity = new Image
+                {
+                    Id = Guid.NewGuid(),
+                    ProductId = computer.Id,
+                    Url = $"/images/{imageName}",
+                    IsMain = true
+                };
+
+                dbContext.Images.Add(imageEntity);
+            }
+
             dbContext.SaveChanges();
             return Ok(computer);
         }
 
 
-
+       
         [HttpPost]
-        public IActionResult AddComputer(AddComputerDto addComputerDto)
+        public IActionResult AddComputer([FromForm]AddComputerDto addComputerDto )
         {
             // Validate CategoriesId tồn tại
             if (addComputerDto.CategoriesId.HasValue)
@@ -116,16 +175,37 @@ namespace SellComputer.Controllers
                     });
                 }
             }
+            var imageName = Guid.NewGuid() + Path.GetExtension(addComputerDto.Images.FileName);
+            var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageName);
+            var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
 
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+
+            using (var fileStream = new FileStream(imagePath, FileMode.Create))
+            {
+                addComputerDto.Images.CopyTo(fileStream);
+            }
             var computerEntity = new Computer()
             {
+                Id = Guid.NewGuid(),
                 Name = addComputerDto.Name,
                 Manufacturer = addComputerDto.Manufacturer,
                 Price = addComputerDto.Price,
                 Quantity = addComputerDto.Quantity,
-                CategoriesId = addComputerDto.CategoriesId
+                CategoriesId = addComputerDto.CategoriesId,
+                Description = addComputerDto.Description
             };
-
+            var imgageEntity = new Image
+            {
+                Id = Guid.NewGuid(),
+                ProductId = computerEntity.Id,
+                Product = computerEntity,
+                Url = $"/images/{imageName}",
+                IsMain = true
+            };
+            dbContext.Images.Add(imgageEntity);
             dbContext.Computers.Add(computerEntity);
             dbContext.SaveChanges();
             return Ok(computerEntity);
@@ -188,14 +268,14 @@ namespace SellComputer.Controllers
                     .Take(pageSize)
                     .Select(c => new
                     {
-                        Id = c.id,
+                        Id = c.Id,
                         Name = c.Name,
                         Manufacturer = c.Manufacturer,
                         Price = c.Price,
                         Quantity = c.Quantity,
                         CategoriesId = c.CategoriesId,
                         CategoryName = c.Categories != null ? c.Categories.Name : "Không có danh mục",
-                        CategoryDescription = c.Categories != null ? c.Categories.Decription : null,
+                        CategoryDescription = c.Categories != null ? c.Categories.Description : null,
                         CreateAt = c.CreateAt,
                         UpdateAt = c.UpdateAt,
                         Images = c.Images
