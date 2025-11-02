@@ -32,4 +32,6 @@ public partial class User
     public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
     public virtual Role? Role { get; set; }
+
+    public void generateId() => Id = Guid.NewGuid();
 }

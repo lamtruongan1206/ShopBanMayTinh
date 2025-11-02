@@ -1,0 +1,29 @@
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1435:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  web:
+    build: .
+    container_name: sellcomputer
+    depends_on:
+      - db
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - CONNECTION_STRING=Server=db;Database=ShopBanMayTinh;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    command: ["dotnet", "SellComputer.dll"]
+
+volumes:
+  sql_data:

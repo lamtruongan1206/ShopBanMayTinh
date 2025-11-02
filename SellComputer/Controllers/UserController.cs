@@ -22,7 +22,7 @@ namespace SellComputer.Controllers
         public IActionResult GetUserByID(Guid id)
         {
             var user = dbContext.Users.Find(id);
-            if ( user is null)
+            if (user is null)
             {
                 return NotFound();
             }
@@ -30,7 +30,7 @@ namespace SellComputer.Controllers
         }
 
 
-        [HttpPost] 
+        [HttpPost]
         public IActionResult AddUser(AddUserDto addUserDto)
         {
             if (addUserDto.RoleId.HasValue)
@@ -59,5 +59,6 @@ namespace SellComputer.Controllers
             dbContext.SaveChanges();
             return Ok(userEntity);
         }
+
     }
 }

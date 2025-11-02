@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SellComputer.Data;
 using SellComputer.Models.DTOs.Computers;
@@ -28,6 +29,8 @@ namespace SellComputer.Controllers
 
             // Lấy dữ liệu cho trang hiện tại
             var computers = dbContext.Computers
+                .Include(b => b.Categories)
+                .Include(b => b.Images)
                 .OrderBy(c => c.Name)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
@@ -40,7 +43,7 @@ namespace SellComputer.Controllers
                 PageSize = pageSize,
                 CurrentPage = page,
                 TotalPages = totalPages,
-                Computers = computers
+                Data = computers
             });
         }
 
@@ -145,9 +148,9 @@ namespace SellComputer.Controllers
 
         [HttpGet("search")]
         public IActionResult SearchComputers(
-    [FromQuery] string keyword,
-    [FromQuery] int page = 1,
-    [FromQuery] int pageSize = 5)
+            [FromQuery] string keyword,
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 5)
         {
             try
             {
@@ -194,7 +197,8 @@ namespace SellComputer.Controllers
                         CategoryName = c.Categories != null ? c.Categories.Name : "Không có danh mục",
                         CategoryDescription = c.Categories != null ? c.Categories.Decription : null,
                         CreateAt = c.CreateAt,
-                        UpdateAt = c.UpdateAt
+                        UpdateAt = c.UpdateAt,
+                        Images = c.Images
                     })
                     .ToList();
 
@@ -206,7 +210,7 @@ namespace SellComputer.Controllers
                     PageSize = pageSize,
                     CurrentPage = page,
                     TotalPages = totalPages,
-                    Computers = computers
+                    Data = computers
                 });
             }
             catch (Exception ex)
@@ -217,6 +221,40 @@ namespace SellComputer.Controllers
                     Message = ex.Message
                 });
             }
+        }
+
+        [HttpPost("upload-image")]
+        public IActionResult UploadImage(IFormFile image, Guid computerId)
+        {
+            var computer = dbContext.Computers.Find(computerId);
+            if (computer is null)
+            {
+                return NotFound("Máy tính không tồn tại trong hệ thống");
+            }
+
+            var imageName = Guid.NewGuid() + Path.GetExtension(image.FileName);
+            var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imageName);
+            var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+
+            using (var fileStream = new FileStream(imagePath, FileMode.Create))
+            {
+                image.CopyTo(fileStream);
+            }
+            var imageEntity = new Image()
+            {
+                Id = Guid.NewGuid(),
+                ProductId = computerId,
+                Product = computer,
+                Url = $"/images/{imageName}",
+            };
+            dbContext.Images.Add(imageEntity);
+            dbContext.SaveChanges();
+
+            return Ok(image);
         }
     }
 }

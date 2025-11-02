@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace SellComputer.Models.Entities;
 
@@ -15,5 +16,6 @@ public partial class Image
 
     public Guid? ProductId { get; set; }
 
+    [JsonIgnore]
     public virtual Computer? Product { get; set; }
 }
