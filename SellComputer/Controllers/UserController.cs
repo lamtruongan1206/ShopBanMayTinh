@@ -45,19 +45,45 @@ namespace SellComputer.Controllers
                     });
                 }
             }
+
+            var existingEmail = dbContext.Users.FirstOrDefault(u => u.Email == addUserDto.Email);
+            if (existingEmail != null)
+            {
+                return BadRequest(new
+                {
+                    Error = "Email đã được đăng ký",
+                    Message = "Vui lòng sử dụng email khác"
+                });
+            }
+            if (addUserDto.Password.Length < 6)
+                return BadRequest(new { Error = "Password phải có ít nhất 6 ký tự" });
+
+            string passwordHash = BCrypt.Net.BCrypt.HashPassword(addUserDto.Password);
+
             var userEntity = new User()
             {
                 Username = addUserDto.Username,
-                Password = addUserDto.Password,
+                Password = passwordHash,
                 FirstName = addUserDto.FirstName,
                 LastName = addUserDto.LastName,
                 Email = addUserDto.Email,
                 Phone = addUserDto.Phone,
                 Address = addUserDto.Address,
+                RoleId = addUserDto.RoleId,
             };
             dbContext.Users.Add(userEntity);
             dbContext.SaveChanges();
-            return Ok(userEntity);
+            return Ok(new
+            {
+                Id = userEntity.Id,
+                Username = userEntity.Username,
+                FirstName = userEntity.FirstName,
+                LastName = userEntity.LastName,
+                Email = userEntity.Email,
+                Phone = userEntity.Phone,
+                Address = userEntity.Address,
+                RoleId = userEntity.RoleId,
+            });
         }
 
     }

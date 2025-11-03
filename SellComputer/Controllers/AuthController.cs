@@ -7,6 +7,8 @@ using SellComputer.Models.Entities;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using BCrypt.Net;
+using System.Runtime.ExceptionServices;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -22,16 +24,32 @@ public class AuthController : BaseApiController
     [HttpPost("login")]
     public IActionResult Login(LoginDto loginDto)
     {
-        var user = dbContext.Users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
-        if (user != null)
+        //var user = dbContext.Users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
+        //if (user != null)
+        //{
+        //    var role = dbContext.Roles.FirstOrDefault(r => r.Id == user.RoleId)?.Name;
+        //    var token = GenerateJwtToken(user.Username ?? "", "User");
+        //    return Ok(new { token, user, role });
+        //}
+
+        //return Unauthorized("Sai tài khoản hoặc mật khẩu");
+
+        var user = dbContext.Users.FirstOrDefault(u => u.Email == loginDto.Email);
+        if (user == null)
         {
-            var role = dbContext.Roles.FirstOrDefault(r => r.Id == user.RoleId)?.Name;
-            var token = GenerateJwtToken(user.Username ?? "", "User");
-            return Ok(new { token, user, role });
+            return Unauthorized("Sai tài khoản hoặc mật khẩu");
         }
 
-        return Unauthorized("Sai tài khoản hoặc mật khẩu");
+        if (!BCrypt.Net.BCrypt.Verify(loginDto.Password, user.Password))
+        {
+            return Unauthorized("Sai tài khoản hoặc mật khẩu");
+        }
+        var role = dbContext.Roles.FirstOrDefault(r => r.Id == user.RoleId)?.Name;
+        var token = GenerateJwtToken(user.Username ?? "", "User");
+        return Ok(new { token, user, role });
     }
+
+
 
     [HttpPost("register")]
     public IActionResult SignUp([FromBody] AddUserDto userDto)
@@ -40,15 +58,16 @@ public class AuthController : BaseApiController
         {
             return BadRequest("Email đã được sử dụng !");
         }
-        var role = dbContext.Roles.FirstOrDefault(r => r.Name == "USER");
+        var role = dbContext.Roles.FirstOrDefault(r => r.Name == "User");
         var RoleId = role?.Id;
         try
         {
-            var user = new User()
+        string passwordHash = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+        var user = new User()
             {
                 Id = Guid.NewGuid(),
                 Username = userDto.Username,
-                Password = userDto.Password,
+                Password = passwordHash,
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
                 Email = userDto.Email,
@@ -58,7 +77,17 @@ public class AuthController : BaseApiController
             };
             dbContext.Users.Add(user);
             dbContext.SaveChanges();
-            return Ok(user);
+            return Ok(new
+            {
+                Id = user.Id,
+                Username = user.Username,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                Phone = user.Phone,
+                Address = user.Address,
+                RoleId = user.RoleId
+            });
         }
         catch (Exception ex)
         {

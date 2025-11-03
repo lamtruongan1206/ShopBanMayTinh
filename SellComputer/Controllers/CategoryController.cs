@@ -26,7 +26,7 @@ namespace SellComputer.Controllers
             {
                 Id = Guid.NewGuid(),
                 Name = categoryDto.Name,
-                Decription = categoryDto.Description
+                Description = categoryDto.Description
             };
 
             dbContext.Categories.Add(category);
