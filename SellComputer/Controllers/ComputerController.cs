@@ -37,6 +37,33 @@ namespace SellComputer.Controllers
                 .Take(pageSize)
                 .ToList();
 
+           // Đưa main image lên đầu danh sách ảnh
+            var result = computers.Select(c => new
+            {
+                c.Id,
+                c.Name,
+                c.Price,
+                c.Description,
+                Category = c.Categories != null ? new
+                {
+                    c.Categories.Id,
+                    c.Categories.Name
+                } : null,
+
+                // Ảnh được sắp xếp: IsMain lên đầu
+                Images = c.Images
+            .OrderByDescending(i => i.IsMain)
+            .ThenBy(i => i.Id) // hoặc thêm ThenBy(i => i.CreatedAt) nếu có
+            .Select(i => new
+            {
+                i.Id,
+                i.Url,
+                i.IsMain
+            })
+            .ToList()
+            });
+
+
             // Trả về kết quả với thông tin phân trang
             return Ok(new
             {
@@ -44,7 +71,7 @@ namespace SellComputer.Controllers
                 PageSize = pageSize,
                 CurrentPage = page,
                 TotalPages = totalPages,
-                Data = computers
+                Data = result
             });
         }
 
@@ -98,6 +125,53 @@ namespace SellComputer.Controllers
             if (updateComputerDto.Quantity.HasValue)
                 computer.Quantity = updateComputerDto.Quantity.Value;
 
+            //  Xử lý xóa ảnh phụ
+            if (updateComputerDto.DeletedImageIds != null && updateComputerDto.DeletedImageIds.Any())
+            {
+                var imagesToDelete = dbContext.Images
+                    .Where(i => updateComputerDto.DeletedImageIds.Contains(i.Id) && i.ProductId == id)
+                    .ToList();
+
+                foreach (var img in imagesToDelete)
+                {
+                    var oldPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", img.Url.TrimStart('/'));
+                    if (System.IO.File.Exists(oldPath))
+                        System.IO.File.Delete(oldPath);
+
+                    dbContext.Images.Remove(img);
+                }
+            }
+
+            //  Thêm ảnh phụ mới
+            if (updateComputerDto.AdditionalImages != null && updateComputerDto.AdditionalImages.Any())
+            {
+                foreach (var file in updateComputerDto.AdditionalImages)
+                {
+                    var ext = Path.GetExtension(file.FileName).ToLower();
+                    var allowed = new[] { ".jpg", ".jpeg", ".png", ".gif", ".webp" };
+                    if (!allowed.Contains(ext))
+                        return BadRequest("Chỉ cho phép ảnh JPG, PNG, GIF, WEBP");
+
+                    var fileName = Guid.NewGuid() + ext;
+                    var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                    if (!Directory.Exists(folder))
+                        Directory.CreateDirectory(folder);
+                    var fullPath = Path.Combine(folder, fileName);
+
+                    using (var fs = new FileStream(fullPath, FileMode.Create))
+                    {
+                        file.CopyTo(fs);
+                    }
+
+                    dbContext.Images.Add(new Image
+                    {
+                        Id = Guid.NewGuid(),
+                        ProductId = computer.Id,
+                        Url = $"/images/{fileName}",
+                        IsMain = false
+                    });
+                }
+            }
 
             if (updateComputerDto.Images != null && updateComputerDto.Images.Length > 0)
             {

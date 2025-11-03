@@ -22,5 +22,6 @@ namespace SellComputer.Models.DTOs.Computers
         [Required(ErrorMessage = "Mã danh mục là bắt buộc")]
         public Guid? CategoriesId { get; set; }
         public IFormFile Images { get; set; }
+        public List<IFormFile>? AdditionalImages { get; set; }
     }
 }

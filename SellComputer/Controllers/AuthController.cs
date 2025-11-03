@@ -100,6 +100,10 @@ public class AuthController : BaseApiController
     public IActionResult GetInfoUser()
     {
         var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+        if (string.IsNullOrEmpty(token))
+        {
+            return Unauthorized("Thiếu hoặc không hợp lệ token trong header Authorization!");
+        }
         var handler = new JwtSecurityTokenHandler();
         var jwtToken = handler.ReadJwtToken(token);
         var username = jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
