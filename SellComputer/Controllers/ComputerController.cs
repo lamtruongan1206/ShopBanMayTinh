@@ -15,12 +15,12 @@ namespace SellComputer.Controllers
 
 
         [HttpGet]
-        public IActionResult GetAllComputers(int page = 1, int pageSize = 5)
+        public IActionResult GetAllComputers(int page = 1, int pageSize = 8)
         {
             // Đảm bảo page và pageSize hợp lệ
             if (page < 1) page = 1;
-            if (pageSize < 1) pageSize = 5;
-            if (pageSize > 50) pageSize = 50;
+            if (pageSize < 1) pageSize = 8;
+            if (pageSize > 50) pageSize = 80;
 
             // Lấy tổng số máy tính
             var totalComputers = dbContext.Computers.Count();
@@ -44,12 +44,10 @@ namespace SellComputer.Controllers
                 c.Name,
                 c.Price,
                 c.Description,
-                Category = c.Categories != null ? new
-                {
-                    c.Categories.Id,
-                    c.Categories.Name
-                } : null,
-
+                c.Categories,
+                c.Quantity,
+                c.CategoriesId,
+                c.Manufacturer,
                 // Ảnh được sắp xếp: IsMain lên đầu
                 Images = c.Images
             .OrderByDescending(i => i.IsMain)
@@ -194,10 +192,6 @@ namespace SellComputer.Controllers
                 {
                     // Xóa file vật lý cũ
                     var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", oldMainImage.Url.TrimStart('/'));
-                    //if (File.Exists(oldImagePath))
-                    //{
-                    //    File.Delete(oldImagePath);
-                    //}
                     // Xóa record cũ trong database
                     dbContext.Images.Remove(oldMainImage);
                 }
