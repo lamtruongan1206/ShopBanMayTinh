@@ -1,0 +1,60 @@
+﻿@model WebBanMayTinh.Models.DTO.ComputerDto
+
+@{
+    ViewData["Title"] = "Cập nhật máy tính";
+}
+
+<h2 class="text-primary fw-bold mb-3">Cập nhật máy tính</h2>
+
+<form asp-action="UpdateAction" method="post" enctype="multipart/form-data" class="card p-4 shadow-sm">
+    <!-- Hidden input chứa id -->
+    <input type="hidden" name="id" value="@ViewBag.ComputerId" />
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Tên máy</label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Hãng sản xuất</label>
+        <input type="text" name="Manufacturer" value="@Model.Manufacturer" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Giá</label>
+        <input type="number" name="Price" value="@Model.Price" class="form-control" min="0" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Số lượng</label>
+        <input type="number" name="Quantity" value="@Model.Quantity" class="form-control" min="0" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Danh mục</label>
+        <select name="CategoriesId" asp-items="ViewBag.CategoriesId" class="form-select"></select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Mô tả</label>
+        <textarea name="Description" class="form-control" rows="4">@Model.Description</textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Ảnh chính hiện tại</label><br />
+        <img src="@ViewBag.MainImage" alt="Ảnh chính" style="width:120px;height:120px;object-fit:cover;border-radius:8px;" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Đổi ảnh chính (nếu cần)</label>
+        <input type="file" name="MainImage" class="form-control" accept="image/*" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-bold">Thêm ảnh phụ mới</label>
+        <input type="file" name="AdditionalImages" class="form-control" accept="image/*" multiple />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>

@@ -1,0 +1,83 @@
+﻿@model WebBanMayTinh.Models.Entities.Computer
+
+@{
+    ViewData["Title"] = "Chi tiết máy tính";
+}
+
+<div class="container mt-4">
+    <h2 class="text-primary fw-bold mb-3">Chi tiết máy: @Model.Name</h2>
+
+    <div class="row">
+        <!-- Ảnh chính -->
+        <div class="col-md-4">
+            <h5>Ảnh chính</h5>
+            @{
+                var mainImage = Model.Images?.FirstOrDefault(i => i.IsMain)?.Url ?? "/images/default.png";
+            }
+            <img src="@mainImage" class="img-fluid rounded mb-3" alt="Ảnh chính" style="width:100%; height:auto; object-fit:cover;" />
+        </div>
+
+        <!-- Thông số máy tính -->
+        <div class="col-md-8">
+            <h5>Thông tin chi tiết</h5>
+            <table class="table table-bordered">
+                <tr>
+                    <th>Tên máy</th>
+                    <td>@Model.Name</td>
+                </tr>
+                <tr>
+                    <th>Hãng sản xuất</th>
+                    <td>@Model.Manufacturer</td>
+                </tr>
+                <tr>
+                    <th>Giá</th>
+                    <td>@Model.Price</td>
+                </tr>
+                <tr>
+                    <th>Số lượng</th>
+                    <td>@Model.Quantity</td>
+                </tr>
+                <tr>
+                    <th>Danh mục</th>
+                    <td>@Model.Categories?.Name</td>
+                </tr>
+                <tr>
+                    <th>Mô tả</th>
+                    <td>@Model.Description</td>
+                </tr>
+                <tr>
+                    <th>Ngày tạo</th>
+                    <td>@Model.CreateAt?.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Ngày cập nhật</th>
+                    <td>@Model.UpdateAt?.ToString("dd/MM/yyyy")</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Ảnh phụ -->
+    <div class="row mt-4">
+        <div class="col">
+            <h5>Ảnh phụ</h5>
+            @if (Model.Images != null && Model.Images.Any(i => !i.IsMain))
+            {
+                foreach (var img in Model.Images.Where(i => !i.IsMain))
+                {
+                    <img src="@img.Url" alt="Ảnh phụ" class="img-thumbnail me-2 mb-2" style="width:150px; height:150px; object-fit:cover;" />
+                }
+            }
+            else
+            {
+                <p class="text-muted">Chưa có ảnh phụ</p>
+            }
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-warning">Cập nhật</a>
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Xóa</a>
+    </div>
+</div>

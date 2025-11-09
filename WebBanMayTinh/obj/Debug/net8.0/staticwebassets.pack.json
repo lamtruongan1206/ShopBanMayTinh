@@ -1,0 +1,1073 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanMayTinh.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebBanMayTinh.9h5okvvocm.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\022176e4-2201-4600-9aeb-c43974a21961.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\022176e4-2201-4600-9aeb-c43974a21961.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\0f5457c2-6b08-4205-b440-236631f934cd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\0f5457c2-6b08-4205-b440-236631f934cd.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\10.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\109a5e1e-69b7-4bda-93d1-ea32011acd44.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\109a5e1e-69b7-4bda-93d1-ea32011acd44.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\11.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\119937cf-e988-4ef4-88ac-d1da7036eb9b.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\119937cf-e988-4ef4-88ac-d1da7036eb9b.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\12.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\129ba1c2-7f17-49d0-aebe-ac16965e5cdd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\129ba1c2-7f17-49d0-aebe-ac16965e5cdd.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\12dd6414-1f69-45e9-b2ca-33bfd9eb8d88.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\12dd6414-1f69-45e9-b2ca-33bfd9eb8d88.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\13.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\14.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\15.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\16.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\17.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\18.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\19.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\1d6d74b9-827e-45a8-a77b-49eb7a4ae9bb.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\1d6d74b9-827e-45a8-a77b-49eb7a4ae9bb.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\20.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\21.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\22.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\23.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\24.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\25.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\26.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\27.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\28.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\28.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\29.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\29.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\2a8c47a7-a7c5-4008-b6eb-de1ff48c0ac8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\2a8c47a7-a7c5-4008-b6eb-de1ff48c0ac8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\30.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\30.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\31.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\31.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\32.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\32.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\33.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\33.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\356f1153-60c8-42f0-92a0-1fb3322b39ed.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\356f1153-60c8-42f0-92a0-1fb3322b39ed.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\381eb6af-93d5-42cc-9890-d2b3f04157d8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\381eb6af-93d5-42cc-9890-d2b3f04157d8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\490abdf3-f44f-4b6b-b3b1-834e560ac77c.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\490abdf3-f44f-4b6b-b3b1-834e560ac77c.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\49892dfa-8c63-4849-ace5-bb73d62d2fe8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\49892dfa-8c63-4849-ace5-bb73d62d2fe8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\4a5804a2-250d-45f0-92b9-6c481ac659a3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\4a5804a2-250d-45f0-92b9-6c481ac659a3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\4edaa4c6-c5be-43f0-8694-2c64b277c12e.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\4edaa4c6-c5be-43f0-8694-2c64b277c12e.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\55f25ecb-b120-4497-861b-75b98972e4a8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\55f25ecb-b120-4497-861b-75b98972e4a8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\5d5a9033-338d-4242-9050-5db05d489255.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\5d5a9033-338d-4242-9050-5db05d489255.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\683f6698-1e97-4852-a7c5-5f430327f08d.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\683f6698-1e97-4852-a7c5-5f430327f08d.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\6c21164f-184a-41a0-ae37-4df9a3d23f2e.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\6c21164f-184a-41a0-ae37-4df9a3d23f2e.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\7.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\8089db0b-7af9-443f-99a0-dde4b70389b4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\8089db0b-7af9-443f-99a0-dde4b70389b4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\827c7bb3-0328-4fa6-bce5-79952f2f88af.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\827c7bb3-0328-4fa6-bce5-79952f2f88af.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\83c3bbbc-6715-4f35-9d60-25407819624e.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\83c3bbbc-6715-4f35-9d60-25407819624e.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\87e448f7-8fc0-45e4-8466-5c6162b51650.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\87e448f7-8fc0-45e4-8466-5c6162b51650.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\89e292c5-277d-4c73-bd1e-8bd2c3f7286e.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\89e292c5-277d-4c73-bd1e-8bd2c3f7286e.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\8c90ec20-d845-47d3-9261-a8ef87998b5c.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\8c90ec20-d845-47d3-9261-a8ef87998b5c.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\9.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\9020e520-59d9-4b8e-a537-cc91d1911fb9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\9020e520-59d9-4b8e-a537-cc91d1911fb9.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\91ee6307-369e-4468-ad96-2dace1e5050d.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\91ee6307-369e-4468-ad96-2dace1e5050d.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\92bc1467-9779-4f22-91af-53de2d34c06c.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\92bc1467-9779-4f22-91af-53de2d34c06c.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\92eb5926-86ee-42e8-975a-803233ea3eae.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\92eb5926-86ee-42e8-975a-803233ea3eae.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\9f7727b0-7671-4cad-8523-5be1c8938480.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\9f7727b0-7671-4cad-8523-5be1c8938480.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\a11ab69c-fd59-4d85-9a1f-510d7a5255e1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\a11ab69c-fd59-4d85-9a1f-510d7a5255e1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\a4272816-d07e-45ed-acfb-5c954718943f.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\a4272816-d07e-45ed-acfb-5c954718943f.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\a995245c-e76b-4ac6-82cb-a1b6e869cb00.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\a995245c-e76b-4ac6-82cb-a1b6e869cb00.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\aea4ae12-2e90-43ab-8aef-7aa099edef3f.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\aea4ae12-2e90-43ab-8aef-7aa099edef3f.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\b838550d-e6eb-4f7e-a1c2-de4075ec93d8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\b838550d-e6eb-4f7e-a1c2-de4075ec93d8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\d3eb5374-9ae5-4aab-93f1-6d500fb92dfc.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\d3eb5374-9ae5-4aab-93f1-6d500fb92dfc.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\df787945-5671-409b-b0f3-da93324e9631.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\df787945-5671-409b-b0f3-da93324e9631.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\dfee3336-0647-4688-9769-92068618df3c.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\dfee3336-0647-4688-9769-92068618df3c.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\e525604d-d1e4-4bae-a1bf-cad84ef63606.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\e525604d-d1e4-4bae-a1bf-cad84ef63606.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\ea9d7951-c86c-46e4-9caa-3bb948f0c557.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\ea9d7951-c86c-46e4-9caa-3bb948f0c557.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\ed452985-3384-4a49-82cd-571c4b8cab35.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\ed452985-3384-4a49-82cd-571c4b8cab35.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\f0bb1fa8-d76b-4d0b-8891-14995062f9da.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\f0bb1fa8-d76b-4d0b-8891-14995062f9da.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\f87389a3-5fc6-493e-94cd-605b84dbb2e1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\f87389a3-5fc6-493e-94cd-605b84dbb2e1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\Computer\\fcf9604d-e994-49aa-9383-3d027f406fae.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Computer\\fcf9604d-e994-49aa-9383-3d027f406fae.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\avatars\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\2.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\avatars\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\3.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\avatars\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\4.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\backgrounds\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\1.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\10.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\11.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\12.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\13.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\14.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\15.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\15.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\16.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\16.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\17.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\17.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\18.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\18.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\19.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\19.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\2.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\3.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\4.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\5.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\6.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\7.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\8.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\elements\\9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\9.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\illustrations\\man-with-laptop.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-with-laptop.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\fonts\\iconify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\iconify-icons.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\AdminLTEFullLogo.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\AdminLTEFullLogo.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\avatar4.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\icons.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\assets\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\lte\\assets\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.rtl.css",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.rtl.css.map",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.rtl.min.css",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\adminlte.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lte\\css\\adminlte.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\css\\index.css",
+      "PackagePath": "staticwebassets\\lte\\css\\index.css"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\lte\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\lte\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\lte\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\lte\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\WebBanMayTinh\\wwwroot\\lte\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\lte\\js\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanMayTinh.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanMayTinh.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebBanMayTinh.props",
+      "PackagePath": "build\\WebBanMayTinh.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebBanMayTinh.props",
+      "PackagePath": "buildMultiTargeting\\WebBanMayTinh.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebBanMayTinh.props",
+      "PackagePath": "buildTransitive\\WebBanMayTinh.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
